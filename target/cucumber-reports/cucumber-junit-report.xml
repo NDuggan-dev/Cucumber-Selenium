@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="6.4">
+    <testcase classname="Login Demosite" name="Register and log in on demosite" time="3.446">
+        <system-out><![CDATA[Given the demosite register page............................................passed
+Given a username "nialld123"................................................passed
+And a password "pass123"....................................................passed
+When the user registers.....................................................passed
+And goes to the login page..................................................passed
+And logs in.................................................................passed
+Then verify user is logged in...............................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Search bing" name="Search doge" time="2.772">
+        <system-out><![CDATA[Given the Bing Webpage......................................................passed
+When the user searches for doge.............................................passed
+Then the page title should have doge........................................passed
+]]></system-out>
+    </testcase>
+</testsuite>
